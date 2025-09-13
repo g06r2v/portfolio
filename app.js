@@ -266,7 +266,7 @@ async function handleContactFormSubmission() {
 
     try {
         // Send to Google Sheets via your Apps Script
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxLUCdWGK1UaABj6s0wOgT7neiT5QZ4YrRojVuf3J0QMtRLaZ2ZISgUajIQ5ILCA9x_/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbxUdUEiyv8xjT5u7iodOXq4zL-9U3pwQa9Ne-k9GjwRFYOk9apBXI4q9ualLasEI2Vm_A/exec', {
             method: 'POST',
             mode: 'no-cors', // Required for Google Apps Script
             headers: {
