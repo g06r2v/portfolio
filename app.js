@@ -343,7 +343,7 @@ async function handleModalFormSubmission() {
 
     try {
         // Send to Google Sheets via your Apps Script
-        const response = await fetch('https://script.google.com/macros/s/AKfycbzNjcDJHdjrXMYWBdfyOwJ8K-BC6p8jL5E2htTWu_HK6NiuzC2gIxVC_7QEitgy_VGy/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbxUdUEiyv8xjT5u7iodOXq4zL-9U3pwQa9Ne-k9GjwRFYOk9apBXI4q9ualLasEI2Vm_A/exec', {
             method: 'POST',
             mode: 'no-cors', // Required for Google Apps Script
             headers: {
